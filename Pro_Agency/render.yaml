@@ -1,0 +1,4 @@
+services:
+  - name: web
+    env: java
+    start_command: mvn spring-boot:run
